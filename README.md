@@ -1,4 +1,4 @@
-# Option Critic with BTs 
+# Option Critic with Behaviour trees in Starcraft 2
 This repository is an extension of Laurens Weitkamps PyTorch [implementation](https://github.com/lweitkamp/option-critic-pytorch) of the paper "The Option-Critic Architecture" by Pierre-Luc Bacon, Jean Harb and Doina Precup [arXiv](https://arxiv.org/abs/1609.05140) by implementing a new feature network after Deepminds convolutional archietcture [arXiv](https://arxiv.org/abs/1708.04782) to adapt Option-Critic (OC) for the Starcraft 2 environment. 
 
 The other contribution is the implementation of two OC behaviour trees (BTs) combination models. One with BTs as actions (OCBT) and the other with BTs as options (OCBToptions). Currently these are implemented for the Build marines and Defeat zerglings and banelings mini-games, but can be developed for the full game as well as the other mini-games fairly simply. However, that means that only regular OC is possible in other mini-games or the full game currently. 
